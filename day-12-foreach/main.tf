@@ -21,7 +21,7 @@ resource "aws_instance" "sandbox" {
 #   count = length(var.sandboxes)
   tags = {
     Name = each.value # for a set, each.value and each.key is the same
-  }#
+  }
 
 
 #   tags = {
